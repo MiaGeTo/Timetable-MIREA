@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragment.CurrentEvent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/current_img"
+            android:layout_width="258dp"
+            android:layout_height="386dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mirea" />
+
+        <TextView
+            android:id="@+id/current_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_img"
+            android:layout_marginTop="25dp"
+            android:text="@string/grouplist"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/current_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/current_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/current" />
+    </RelativeLayout>
+
+</FrameLayout>

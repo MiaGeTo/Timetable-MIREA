@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Timetable MIREA</string>
+    <string name="mirea">МИРЭА</string>
+    <string name="news">Новости</string>
+    <string name="timetable">Расписание</string>
+    <string name="map">Карта</string>
+    <string name="back_to_menu">Вернуться в основное меню</string>
+    <string name="saturday">Расписание в субботу</string>
+    <string name="write_group">Введите название группы</string>
+    <string name="save">Сохранить</string>
+    <string name="text">Text</string>
+    <string name="grouplist">Список групп</string>
+    <string name="current">Текущее расписание</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
